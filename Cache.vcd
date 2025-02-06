@@ -1,0 +1,60 @@
+$date
+	Thu Jan 30 16:15:16 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module CacheTest $end
+$var wire 32 ! out [31:0] $end
+$var wire 1 " hit $end
+$var reg 32 # address [31:0] $end
+$var reg 1 $ clk $end
+$var reg 128 % inData [127:0] $end
+$scope module u_Cache $end
+$var wire 32 & address [31:0] $end
+$var wire 1 $ clk $end
+$var wire 128 ' inData [127:0] $end
+$var reg 1 " hit $end
+$var reg 32 ( out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+b101 '
+b0 &
+b101 %
+0$
+b0 #
+0"
+bx !
+$end
+#50000
+b0 !
+b0 (
+1"
+1$
+#100000
+0$
+#150000
+1$
+#200000
+0$
+b1100100 #
+b1100100 &
+#250000
+0"
+1$
+#300000
+0$
+#350000
+1$
+#400000
+0$

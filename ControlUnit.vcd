@@ -1,0 +1,87 @@
+$date
+	Wed Jan  1 09:03:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ControlUnitTest $end
+$var wire 1 ! regWrite $end
+$var wire 1 " regDst $end
+$var wire 1 # memWrite $end
+$var wire 1 $ memToReg $end
+$var wire 1 % memRead $end
+$var wire 1 & branch $end
+$var wire 1 ' aluSrc $end
+$var wire 3 ( aluOp [2:0] $end
+$var reg 6 ) opCode [5:0] $end
+$scope module u_ControlUnit $end
+$var wire 6 * opCode [5:0] $end
+$var reg 3 + aluOp [2:0] $end
+$var reg 1 ' aluSrc $end
+$var reg 1 & branch $end
+$var reg 1 % memRead $end
+$var reg 1 $ memToReg $end
+$var reg 1 # memWrite $end
+$var reg 1 " regDst $end
+$var reg 1 ! regWrite $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+b0 *
+b0 )
+b0 (
+0'
+0&
+0%
+0$
+0#
+1"
+1!
+$end
+#200000
+b11 (
+b11 +
+1%
+1$
+1'
+0"
+b100 )
+b100 *
+#400000
+1#
+0%
+0!
+0$
+b101 )
+b101 *
+#600000
+0#
+1!
+b111 )
+b111 *
+#800000
+b1 (
+b1 +
+1&
+0!
+0'
+b110 )
+b110 *
+#1000000
+b10 (
+b10 +
+0&
+1!
+1'
+b1 )
+b1 *
+#1200000

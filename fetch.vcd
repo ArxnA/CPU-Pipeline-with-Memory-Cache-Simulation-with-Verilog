@@ -1,0 +1,181 @@
+$date
+	Wed Oct 23 09:26:58 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module fetchTest $end
+$var wire 32 ! out [31:0] $end
+$var reg 1 " clk $end
+$var reg 32 # in [31:0] $end
+$var reg 1 $ sel $end
+$scope module u_fetch $end
+$var wire 1 " clk $end
+$var wire 32 % in [31:0] $end
+$var wire 1 $ sel $end
+$var wire 32 & temp [31:0] $end
+$var wire 32 ' pcim [31:0] $end
+$var wire 32 ( out [31:0] $end
+$var wire 32 ) muxpc [31:0] $end
+$scope module IM1 $end
+$var wire 1 " clk $end
+$var wire 32 * in [31:0] $end
+$var reg 32 + out [31:0] $end
+$var integer 32 , i [31:0] $end
+$upscope $end
+$scope module mux1 $end
+$var wire 32 - in1 [31:0] $end
+$var wire 32 . in2 [31:0] $end
+$var wire 1 $ sel $end
+$var wire 32 / out [31:0] $end
+$upscope $end
+$scope module pc1 $end
+$var wire 1 " clk $end
+$var wire 32 0 in [31:0] $end
+$var reg 32 1 out [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 1
+bx 0
+bx /
+b101 .
+bx -
+b1111101000 ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+b101 %
+0$
+b101 #
+0"
+bx !
+$end
+#50000
+1"
+#100000
+0"
+#150000
+1"
+#200000
+b10100 )
+b10100 /
+b10100 0
+0"
+b10100 #
+b10100 %
+b10100 .
+1$
+#250000
+b11000 &
+b11000 -
+b10100 '
+b10100 *
+b10100 1
+1"
+#300000
+0"
+#350000
+b10100000101010001011000010111 !
+b10100000101010001011000010111 (
+b10100000101010001011000010111 +
+1"
+#400000
+b11000 )
+b11000 /
+b11000 0
+0"
+0$
+#450000
+b11100 )
+b11100 /
+b11100 0
+b11100 &
+b11100 -
+b11000 '
+b11000 *
+b11000 1
+1"
+#500000
+0"
+#550000
+b100000 )
+b100000 /
+b100000 0
+b11100000111010001111000011111 !
+b11100000111010001111000011111 (
+b11100000111010001111000011111 +
+b100000 &
+b100000 -
+b11100 '
+b11100 *
+b11100 1
+1"
+#600000
+0"
+#650000
+b100100 )
+b100100 /
+b100100 0
+b100100 &
+b100100 -
+b100000 '
+b100000 *
+b100000 1
+1"
+#700000
+0"
+#750000
+b101000 )
+b101000 /
+b101000 0
+b100100001001010010011000100111 !
+b100100001001010010011000100111 (
+b100100001001010010011000100111 +
+b101000 &
+b101000 -
+b100100 '
+b100100 *
+b100100 1
+1"
+#800000
+0"
+#850000
+b101100 )
+b101100 /
+b101100 0
+b101100 &
+b101100 -
+b101000 '
+b101000 *
+b101000 1
+1"
+#900000
+0"
+#950000
+b110000 )
+b110000 /
+b110000 0
+b101100001011010010111000101111 !
+b101100001011010010111000101111 (
+b101100001011010010111000101111 +
+b110000 &
+b110000 -
+b101100 '
+b101100 *
+b101100 1
+1"
+#1000000
+0"

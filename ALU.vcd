@@ -1,0 +1,87 @@
+$date
+	Wed Oct 30 09:14:23 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALUTest $end
+$var wire 1 ! zero $end
+$var wire 32 " out [31:0] $end
+$var reg 4 # aluControl [3:0] $end
+$var reg 32 $ in1 [31:0] $end
+$var reg 32 % in2 [31:0] $end
+$var reg 5 & shamt [4:0] $end
+$scope module u_ALU $end
+$var wire 4 ' aluControl [3:0] $end
+$var wire 32 ( in1 [31:0] $end
+$var wire 32 ) in2 [31:0] $end
+$var wire 5 * shamt [4:0] $end
+$var reg 32 + out [31:0] $end
+$var reg 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110 +
+b10 *
+b10 )
+b100 (
+b0 '
+b10 &
+b10 %
+b100 $
+b0 #
+b110 "
+0!
+$end
+#200000
+b10 "
+b10 +
+b1 #
+b1 '
+#400000
+b11111111111111111111111111111011 "
+b11111111111111111111111111111011 +
+b10 #
+b10 '
+#600000
+b10000 "
+b10000 +
+b11 #
+b11 '
+#800000
+b1 "
+b1 +
+b100 #
+b100 '
+#1000000
+1!
+b0 "
+b0 +
+b101 #
+b101 '
+#1200000
+0!
+b110 "
+b110 +
+b110 #
+b110 '
+#1400000
+1!
+b0 "
+b0 +
+b111 #
+b111 '
+#1600000
+b1 #
+b1 '
+b10 $
+b10 (
+#1800000

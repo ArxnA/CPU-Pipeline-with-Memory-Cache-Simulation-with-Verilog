@@ -1,0 +1,47 @@
+$date
+	Wed Oct 16 09:12:24 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module PCTest $end
+$var wire 32 ! out [31:0] $end
+$var reg 1 " clk $end
+$var reg 32 # in [31:0] $end
+$scope module u_PC $end
+$var wire 1 " clk $end
+$var wire 32 $ in [31:0] $end
+$var reg 32 % out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx %
+b1 $
+b1 #
+0"
+bx !
+$end
+#100000
+b11011001000000111 !
+b11011001000000111 %
+1"
+b11011001000000111 #
+b11011001000000111 $
+#200000
+0"
+#300000
+1"
+#400000
+0"
+#500000
+1"
+#600000
+0"

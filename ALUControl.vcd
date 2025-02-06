@@ -1,0 +1,83 @@
+$date
+	Wed Oct 30 09:53:02 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALUControlTest $end
+$var wire 4 ! ALUcnt [3:0] $end
+$var reg 3 " ALUOp [2:0] $end
+$var reg 6 # in1 [5:0] $end
+$scope module u_ALUControl $end
+$var wire 3 $ ALUOp [2:0] $end
+$var wire 6 % in1 [5:0] $end
+$var reg 4 & ALUcnt [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#200000
+b1 !
+b1 &
+b1 #
+b1 %
+#400000
+b101 !
+b101 &
+b10 #
+b10 %
+#600000
+b110 !
+b110 &
+b11 #
+b11 %
+#800000
+b111 !
+b111 &
+b100 #
+b100 %
+#1000000
+b11 !
+b11 &
+b101 #
+b101 %
+#1200000
+b100 !
+b100 &
+b110 #
+b110 %
+#1400000
+b10 !
+b10 &
+b111 #
+b111 %
+#1600000
+b1 !
+b1 &
+b1 "
+b1 $
+#1800000
+b111 !
+b111 &
+b10 "
+b10 $
+#2000000
+b0 !
+b0 &
+b11 "
+b11 $
+#2200000
